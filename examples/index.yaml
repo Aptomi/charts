@@ -2,28 +2,28 @@ apiVersion: v1
 entries:
   cassandra:
   - appVersion: 3.11.0
-    created: 2017-11-15T23:27:56.691642362-08:00
+    created: 2017-11-15T23:30:24.803410178-08:00
     description: A Helm chart for Kubernetes
     digest: 4d816e33d1b12ca61ba1bc4a784788b8a0ca537c20941b235b0739000c149474
     icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
     name: cassandra
     urls:
-    - https://aptomi.io/charts/examples/cassandra-1.5.1.tgz
+    - http://aptomi.io/charts/examples/cassandra-1.5.1.tgz
     version: 1.5.1
   hdfs:
   - appVersion: 2.8.1
-    created: 2017-11-15T23:27:56.691954281-08:00
+    created: 2017-11-15T23:30:24.803827211-08:00
     description: Hadoop Distributed File System (HDFS)
     digest: 180975e7ba1b56d86d3c5dd35634b35d609aa488f75f062ccad24b90ccc2c620
     icon: https://hadoop.apache.org/docs/r2.7.1/hadoop-project-dist/hadoop-hdfs/images/hdfs-logo.jpg
     name: hdfs
     urls:
-    - https://aptomi.io/charts/examples/hdfs-2.3.0.tgz
+    - http://aptomi.io/charts/examples/hdfs-2.3.0.tgz
     version: 2.3.0
   istio:
   - apiVersion: v1
     appVersion: 0.2.7
-    created: 2017-11-15T23:27:56.692798609-08:00
+    created: 2017-11-15T23:30:24.80459505-08:00
     description: Istio Helm chart for Kubernetes
     digest: a913bd561cb9699f9b6a2dc884d82ffeec7b1740e54a46402ea6e98086878ffa
     home: https://istio.io/
@@ -35,58 +35,58 @@ entries:
     sources:
     - https://github.com/istio/istio
     urls:
-    - https://aptomi.io/charts/examples/istio-0.2.7-chart6.tgz
+    - http://aptomi.io/charts/examples/istio-0.2.7-chart6.tgz
     version: 0.2.7-chart6
   kafka:
   - appVersion: 0.11.0.0
-    created: 2017-11-15T23:27:56.69333554-08:00
+    created: 2017-11-15T23:30:24.805089971-08:00
     description: Apache Kafka is publish-subscribe messaging rethought as a distributed
       commit log.
     digest: a6b180f8245b1f5f71dbafe099e265896e2a668cd0bab30d3970e5df76ab467a
     icon: https://kafka.apache.org/images/logo.png
     name: kafka
     urls:
-    - https://aptomi.io/charts/examples/kafka-1.6.0.tgz
+    - http://aptomi.io/charts/examples/kafka-1.6.0.tgz
     version: 1.6.0
   spark:
   - appVersion: 2.2.0
-    created: 2017-11-15T23:27:56.694202086-08:00
+    created: 2017-11-15T23:30:24.805912352-08:00
     description: Fast and general-purpose cluster computing system.
     digest: e452ba8f8ea84a5d7639f0f8add109c9b60b65c93ed2155b9675840dda2798c9
     icon: http://spark.apache.org/images/spark-logo-trademark.png
     name: spark
     urls:
-    - https://aptomi.io/charts/examples/spark-3.0.3.tgz
+    - http://aptomi.io/charts/examples/spark-3.0.3.tgz
     version: 3.0.3
   tweepub:
-  - created: 2017-11-15T23:27:56.695173122-08:00
+  - created: 2017-11-15T23:30:24.80680595-08:00
     description: A Helm chart for TweePub - Streaming tweets to Apache Kafka
     digest: 9483abcc8210ea3bdb703ab43f51962e4d027a408d12288bf54c07bb35a03eeb
     name: tweepub
     urls:
-    - https://aptomi.io/charts/examples/tweepub-2.2.0.tgz
+    - http://aptomi.io/charts/examples/tweepub-2.2.0.tgz
     version: 2.2.0
   tweetics:
-  - created: 2017-11-15T23:27:56.697291435-08:00
+  - created: 2017-11-15T23:30:24.8088763-08:00
     description: A Helm chart for Tweetics - Spark job that parses tweets from Kafka
       and stores hashtags popularity as text files (to HDFS) or to Cassandra.
     digest: 788b508f5ce0631eebae1d37581eb201e89ca2f1bcab74531a466029c623a7f4
     name: tweetics
     urls:
-    - https://aptomi.io/charts/examples/tweetics-2.3.1.tgz
+    - http://aptomi.io/charts/examples/tweetics-2.3.1.tgz
     version: 2.3.1
   tweeviz:
   - apiVersion: v1
-    created: 2017-11-15T23:27:56.698089654-08:00
+    created: 2017-11-15T23:30:24.813264028-08:00
     description: A Helm chart for TweeViz - Visualizing stream processed tweets
     digest: 5bedf1a13a8821b462bf42c9e00860f07260bb74a1c0f3dd9907f1da8de5a61f
     name: tweeviz
     urls:
-    - https://aptomi.io/charts/examples/tweeviz-2.2.1.tgz
+    - http://aptomi.io/charts/examples/tweeviz-2.2.1.tgz
     version: 2.2.1
   zookeeper:
   - appVersion: 3.5.3-beta
-    created: 2017-11-15T23:27:56.698416467-08:00
+    created: 2017-11-15T23:30:24.813651552-08:00
     description: ZooKeeper is a centralized service for maintaining configuration
       information, naming, providing distributed synchronization, and providing group
       services.
@@ -94,6 +94,6 @@ entries:
     icon: https://zookeeper.apache.org/images/zookeeper_small.gif
     name: zookeeper
     urls:
-    - https://aptomi.io/charts/examples/zookeeper-1.7.0.tgz
+    - http://aptomi.io/charts/examples/zookeeper-1.7.0.tgz
     version: 1.7.0
-generated: 2017-11-15T23:27:56.691225016-08:00
+generated: 2017-11-15T23:30:24.803044369-08:00
