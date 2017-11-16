@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   cassandra:
   - appVersion: 3.11.0
-    created: 2017-11-15T23:30:24.803410178-08:00
+    created: 2017-11-16T00:03:22.426468582-08:00
     description: A Helm chart for Kubernetes
     digest: 4d816e33d1b12ca61ba1bc4a784788b8a0ca537c20941b235b0739000c149474
     icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
@@ -12,7 +12,7 @@ entries:
     version: 1.5.1
   hdfs:
   - appVersion: 2.8.1
-    created: 2017-11-15T23:30:24.803827211-08:00
+    created: 2017-11-16T00:03:22.426816709-08:00
     description: Hadoop Distributed File System (HDFS)
     digest: 180975e7ba1b56d86d3c5dd35634b35d609aa488f75f062ccad24b90ccc2c620
     icon: https://hadoop.apache.org/docs/r2.7.1/hadoop-project-dist/hadoop-hdfs/images/hdfs-logo.jpg
@@ -23,7 +23,7 @@ entries:
   istio:
   - apiVersion: v1
     appVersion: 0.2.7
-    created: 2017-11-15T23:30:24.80459505-08:00
+    created: 2017-11-16T00:03:22.427696206-08:00
     description: Istio Helm chart for Kubernetes
     digest: a913bd561cb9699f9b6a2dc884d82ffeec7b1740e54a46402ea6e98086878ffa
     home: https://istio.io/
@@ -39,7 +39,7 @@ entries:
     version: 0.2.7-chart6
   kafka:
   - appVersion: 0.11.0.0
-    created: 2017-11-15T23:30:24.805089971-08:00
+    created: 2017-11-16T00:03:22.428309768-08:00
     description: Apache Kafka is publish-subscribe messaging rethought as a distributed
       commit log.
     digest: a6b180f8245b1f5f71dbafe099e265896e2a668cd0bab30d3970e5df76ab467a
@@ -50,16 +50,16 @@ entries:
     version: 1.6.0
   spark:
   - appVersion: 2.2.0
-    created: 2017-11-15T23:30:24.805912352-08:00
+    created: 2017-11-16T00:03:22.42934916-08:00
     description: Fast and general-purpose cluster computing system.
-    digest: e452ba8f8ea84a5d7639f0f8add109c9b60b65c93ed2155b9675840dda2798c9
+    digest: a2eb4fa7847625cf319892118031c7f56b3fb298606205d57a53f78a771a7049
     icon: http://spark.apache.org/images/spark-logo-trademark.png
     name: spark
     urls:
     - http://aptomi.io/charts/examples/spark-3.0.3.tgz
     version: 3.0.3
   tweepub:
-  - created: 2017-11-15T23:30:24.80680595-08:00
+  - created: 2017-11-16T00:03:22.430388133-08:00
     description: A Helm chart for TweePub - Streaming tweets to Apache Kafka
     digest: 9483abcc8210ea3bdb703ab43f51962e4d027a408d12288bf54c07bb35a03eeb
     name: tweepub
@@ -67,26 +67,26 @@ entries:
     - http://aptomi.io/charts/examples/tweepub-2.2.0.tgz
     version: 2.2.0
   tweetics:
-  - created: 2017-11-15T23:30:24.8088763-08:00
+  - created: 2017-11-16T00:03:22.432678328-08:00
     description: A Helm chart for Tweetics - Spark job that parses tweets from Kafka
       and stores hashtags popularity as text files (to HDFS) or to Cassandra.
-    digest: 788b508f5ce0631eebae1d37581eb201e89ca2f1bcab74531a466029c623a7f4
+    digest: 5f57324bcb8f83af5f3f2ec864ce358a1d1e975322e51609f85a6d67b3ae039a
     name: tweetics
     urls:
     - http://aptomi.io/charts/examples/tweetics-2.3.1.tgz
     version: 2.3.1
   tweeviz:
   - apiVersion: v1
-    created: 2017-11-15T23:30:24.813264028-08:00
+    created: 2017-11-16T00:03:22.433517108-08:00
     description: A Helm chart for TweeViz - Visualizing stream processed tweets
-    digest: 5bedf1a13a8821b462bf42c9e00860f07260bb74a1c0f3dd9907f1da8de5a61f
+    digest: 4353d9bf8db4dfa02067abd38c71e32bbc2f9865218be43aea08b2d5b9d913f5
     name: tweeviz
     urls:
     - http://aptomi.io/charts/examples/tweeviz-2.2.1.tgz
     version: 2.2.1
   zookeeper:
   - appVersion: 3.5.3-beta
-    created: 2017-11-15T23:30:24.813651552-08:00
+    created: 2017-11-16T00:03:22.433902543-08:00
     description: ZooKeeper is a centralized service for maintaining configuration
       information, naming, providing distributed synchronization, and providing group
       services.
@@ -96,4 +96,4 @@ entries:
     urls:
     - http://aptomi.io/charts/examples/zookeeper-1.7.0.tgz
     version: 1.7.0
-generated: 2017-11-15T23:30:24.803044369-08:00
+generated: 2017-11-16T00:03:22.426027633-08:00
