@@ -1,8 +1,18 @@
 apiVersion: v1
 entries:
+  cassandra:
+  - appVersion: 3.11.0
+    created: 2017-11-15T23:18:44.187322824-08:00
+    description: A Helm chart for Kubernetes
+    digest: 4d816e33d1b12ca61ba1bc4a784788b8a0ca537c20941b235b0739000c149474
+    icon: https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
+    name: cassandra
+    urls:
+    - http://aptomi.io/charts/examples/cassandra-1.5.1.tgz
+    version: 1.5.1
   hdfs:
   - appVersion: 2.8.1
-    created: 2017-11-15T23:16:19.393054046-08:00
+    created: 2017-11-15T23:18:44.187675563-08:00
     description: Hadoop Distributed File System (HDFS)
     digest: 180975e7ba1b56d86d3c5dd35634b35d609aa488f75f062ccad24b90ccc2c620
     icon: https://hadoop.apache.org/docs/r2.7.1/hadoop-project-dist/hadoop-hdfs/images/hdfs-logo.jpg
@@ -12,7 +22,7 @@ entries:
     version: 2.3.0
   zookeeper:
   - appVersion: 3.5.3-beta
-    created: 2017-11-15T23:16:19.39335696-08:00
+    created: 2017-11-15T23:18:44.188043481-08:00
     description: ZooKeeper is a centralized service for maintaining configuration
       information, naming, providing distributed synchronization, and providing group
       services.
@@ -22,4 +32,4 @@ entries:
     urls:
     - http://aptomi.io/charts/examples/zookeeper-1.7.0.tgz
     version: 1.7.0
-generated: 2017-11-15T23:16:19.392648966-08:00
+generated: 2017-11-15T23:18:44.186843759-08:00
