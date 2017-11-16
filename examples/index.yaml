@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  hdfs:
+  - appVersion: 2.8.1
+    created: 2017-11-15T23:10:24.134443068-08:00
+    description: Hadoop Distributed File System (HDFS)
+    digest: 180975e7ba1b56d86d3c5dd35634b35d609aa488f75f062ccad24b90ccc2c620
+    icon: https://hadoop.apache.org/docs/r2.7.1/hadoop-project-dist/hadoop-hdfs/images/hdfs-logo.jpg
+    name: hdfs
+    urls:
+    - https://aptomi.io/charts/examples/hdfs-2.3.0.tgz
+    version: 2.3.0
+  zookeeper:
+  - appVersion: 3.5.3-beta
+    created: 2017-11-15T23:10:24.135165558-08:00
+    description: ZooKeeper is a centralized service for maintaining configuration
+      information, naming, providing distributed synchronization, and providing group
+      services.
+    digest: 184e49ea6495f9709882f05b736a5bfc92f484a1372f7fa8cb302f0bf848d887
+    icon: https://zookeeper.apache.org/images/zookeeper_small.gif
+    name: zookeeper
+    urls:
+    - https://aptomi.io/charts/examples/zookeeper-1.7.0.tgz
+    version: 1.7.0
+generated: 2017-11-15T23:10:24.127813978-08:00
