@@ -1,8 +1,17 @@
 apiVersion: v1
 entries:
   aptomi:
+  - appVersion: 0.1.4
+    created: 2018-01-22T21:48:08.097139036-08:00
+    description: A Helm chart for Aptomi
+    digest: 64d2bc20fed864d266ef0e663dd8aed010e404727182fe03f08015d5e2fd000a
+    icon: https://raw.githubusercontent.com/Aptomi/aptomi/master/images/aptomi-logo-new.png
+    name: aptomi
+    urls:
+    - http://aptomi.io/charts/aptomi-0.1.4-chart1.tgz
+    version: 0.1.4-chart1
   - appVersion: 0.1.2
-    created: 2018-01-19T01:07:50.832172596-08:00
+    created: 2018-01-22T21:48:08.096607937-08:00
     description: A Helm chart for Aptomi
     digest: bb4e04de5c1b7c38c0a71a3850191fc4b44c0cd80c2d70f9958a371736236855
     icon: https://raw.githubusercontent.com/Aptomi/aptomi/master/images/aptomi-logo-new.png
@@ -12,7 +21,7 @@ entries:
     version: 0.1.2-chart1
   aptomi-demo-ldap:
   - appVersion: "1"
-    created: 2018-01-19T01:07:50.832655043-08:00
+    created: 2018-01-22T21:48:08.101140305-08:00
     description: A Helm chart for Aptomi demo LDAP server
     digest: 4a3133563c3fec7b2b3b3da26c60f024faa8a2e5298a4f3ae984a2b7c37d2d3f
     name: aptomi-demo-ldap
@@ -20,7 +29,7 @@ entries:
     - http://aptomi.io/charts/aptomi-demo-ldap-1.tgz
     version: "1"
   - appVersion: 0.1.2
-    created: 2018-01-19T01:07:50.832433666-08:00
+    created: 2018-01-22T21:48:08.100719636-08:00
     description: A Helm chart for Aptomi demo LDAP server
     digest: d1d51e2f90e7ff2522d9e80b20ae0d90587279320d60f947179b926ab941cc70
     name: aptomi-demo-ldap
@@ -29,11 +38,11 @@ entries:
     version: 0.1.2-chart1
   aptomi_demo_ldap:
   - appVersion: "1"
-    created: 2018-01-19T01:07:50.83288076-08:00
+    created: 2018-01-22T21:48:08.101409345-08:00
     description: A Helm chart for Aptomi demo LDAP server
     digest: 6a9cb8879c9b237613056c3a44088ba8c91d7867d5f33d32681ddd79f4d7aecc
     name: aptomi_demo_ldap
     urls:
     - http://aptomi.io/charts/aptomi_demo_ldap-1.tgz
     version: "1"
-generated: 2018-01-19T01:07:50.831497774-08:00
+generated: 2018-01-22T21:48:08.095992815-08:00
