@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   aptomi:
   - appVersion: latest
-    created: 2018-06-21T21:06:04.086609582-07:00
+    created: 2018-06-21T21:13:57.218275103-07:00
     description: A Helm chart for Aptomi
     digest: ac7eaea13280607e337523af86764d0e1b4f477269dfd99293e07fe300918308
     icon: https://raw.githubusercontent.com/Aptomi/aptomi/master/images/aptomi-logo-new.png
@@ -11,7 +11,7 @@ entries:
     - http://aptomi.io/charts/aptomi-0.2.0.tgz
     version: 0.2.0
   - appVersion: 0.1.4
-    created: 2018-06-21T21:06:04.086053794-07:00
+    created: 2018-06-21T21:13:57.21748773-07:00
     description: A Helm chart for Aptomi
     digest: 7f6aecf42190ed588cb679796fa4bc6b1499f84b006966905f2fabfa06dae469
     icon: https://raw.githubusercontent.com/Aptomi/aptomi/master/images/aptomi-logo-new.png
@@ -20,7 +20,7 @@ entries:
     - http://aptomi.io/charts/aptomi-0.1.4-chart1.tgz
     version: 0.1.4-chart1
   - appVersion: 0.1.2
-    created: 2018-06-21T21:06:04.085188584-07:00
+    created: 2018-06-21T21:13:57.216357899-07:00
     description: A Helm chart for Aptomi
     digest: bb4e04de5c1b7c38c0a71a3850191fc4b44c0cd80c2d70f9958a371736236855
     icon: https://raw.githubusercontent.com/Aptomi/aptomi/master/images/aptomi-logo-new.png
@@ -30,7 +30,7 @@ entries:
     version: 0.1.2-chart1
   aptomi-demo-ldap:
   - appVersion: "1"
-    created: 2018-06-21T21:06:04.087525456-07:00
+    created: 2018-06-21T21:13:57.219184044-07:00
     description: A Helm chart for Aptomi demo LDAP server
     digest: 4a3133563c3fec7b2b3b3da26c60f024faa8a2e5298a4f3ae984a2b7c37d2d3f
     name: aptomi-demo-ldap
@@ -38,7 +38,7 @@ entries:
     - http://aptomi.io/charts/aptomi-demo-ldap-1.tgz
     version: "1"
   - appVersion: 0.1.2
-    created: 2018-06-21T21:06:04.087130807-07:00
+    created: 2018-06-21T21:13:57.218774613-07:00
     description: A Helm chart for Aptomi demo LDAP server
     digest: d1d51e2f90e7ff2522d9e80b20ae0d90587279320d60f947179b926ab941cc70
     name: aptomi-demo-ldap
@@ -46,7 +46,7 @@ entries:
     - http://aptomi.io/charts/aptomi-demo-ldap-0.1.2-chart1.tgz
     version: 0.1.2-chart1
   aptomi-labels-demo:
-  - created: 2018-06-21T21:06:04.08798669-07:00
+  - created: 2018-06-21T21:13:57.219650984-07:00
     digest: 2acf4f0c6dd9ae1b4a5954666be03793494c93338dbfb8a9f0c7c2ee45d1ca05
     name: aptomi-labels-demo
     urls:
@@ -54,11 +54,11 @@ entries:
     version: 1.0.0
   aptomi_demo_ldap:
   - appVersion: "1"
-    created: 2018-06-21T21:06:04.088427363-07:00
+    created: 2018-06-21T21:13:57.220065518-07:00
     description: A Helm chart for Aptomi demo LDAP server
     digest: 6a9cb8879c9b237613056c3a44088ba8c91d7867d5f33d32681ddd79f4d7aecc
     name: aptomi_demo_ldap
     urls:
     - http://aptomi.io/charts/aptomi_demo_ldap-1.tgz
     version: "1"
-generated: 2018-06-21T21:06:04.084288154-07:00
+generated: 2018-06-21T21:13:57.214972477-07:00
